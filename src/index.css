@@ -4,7 +4,7 @@ body {
 	color: black;
 	display: flex;
 	font-family: Homemade Apple;
-	font-size: 1.2rem;
+	font-size: 1rem;
 	height: 100vh;
 	justify-content: center;
 	margin: 0;
@@ -18,7 +18,7 @@ a:visited,
 a:hover,
 a {
 	color: black;
-	font-size: 1.25rem;
+	font-size: 1.2rem;
 	padding: 1rem;
 }
 
