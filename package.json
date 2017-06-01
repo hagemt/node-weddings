@@ -1,23 +1,43 @@
 {
-  "name": "wedding",
+  "name": "weddings",
   "version": "0.1.0",
+  "author": "Tor E Hagemann <tor.hagemann@gmail.com>",
+  "description": "React projects for the wedding(s)",
+  "homepage": "http://hagemt.github.io/node-weddings",
+  "license": "UNLICENSED",
   "private": true,
+  "bugs": {
+    "url": "https://github.com/hagemt/node-weddings/issues"
+  },
+  "directories": {
+    "test": "src/tests"
+  },
   "dependencies": {
     "react": "15.5.4",
     "react-addons-css-transition-group": "15.5.2",
     "react-dom": "15.5.4"
   },
   "devDependencies": {
+    "enzyme": "2.8.2",
     "eslint": "3.19.0",
+    "eslint-plugin-import": "2.3.0",
     "eslint-plugin-react": "7.0.1",
+    "gh-pages": "1.0.0",
+    "react-addons-test-utils": "15.5.1",
     "react-scripts": "1.0.7"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hagemt/node-weddings.git"
+  },
   "scripts": {
-    "eslint": "eslint **/*.js",
-    "start": "react-scripts start",
     "build": "react-scripts build",
-    "test": "react-scripts test --env=jsdom",
-    "posttest": "npm run-script eslint",
-    "eject": "react-scripts eject"
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
+    "eslint": "eslint src/**/*.js",
+    "report": "npm test -- --coverage",
+    "postreport": "npm run eslint",
+    "start": "react-scripts start",
+    "test": "react-scripts test --env=jsdom"
   }
 }

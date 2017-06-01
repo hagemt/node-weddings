@@ -4,6 +4,9 @@ import './index.css'
 import React from 'react'
 import ReactDOM from 'react-dom'
 
-import UI from './UI'
+import UI from './UI.js'
 
-ReactDOM.render(<UI />, document.getElementById('root'))
+if (typeof window === 'object') {
+	const root = window.document.getElementById('root')
+	ReactDOM.render(<UI />, root) // replaces root element
+}

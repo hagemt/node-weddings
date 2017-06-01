@@ -1,9 +1,13 @@
 /* eslint-env node */
 module.exports = {
+
 	extends: [
 		'eslint:all',
+		'plugin:import/errors',
+		'plugin:import/warnings',
 		'plugin:react/recommended',
 	],
+
 	parserOptions: {
 		ecmaFeatures: {
 			experimentalObjectRestSpread: true,
@@ -12,9 +16,12 @@ module.exports = {
 		ecmaVersion: 2017,
 		sourceType: 'module',
 	},
+
 	plugins: [
+		'import',
 		'react',
 	],
+
 	rules: {
 		'comma-dangle': ['error', 'always-multiline'],
 		'indent': ['error', 'tab'],
@@ -23,6 +30,7 @@ module.exports = {
 		'newline-after-var': ['off'],
 		'newline-before-return': ['off'],
 		'no-extra-parens': ['error', 'all', { ignoreJSX: 'multi-line' }],
+		'no-inline-comments': ['off'],
 		'no-tabs': ['off'],
 		'object-curly-spacing': ['error', 'always'],
 		'object-property-newline': ['error', { allowMultiplePropertiesPerLine: true }],
@@ -32,4 +40,5 @@ module.exports = {
 		'quotes': ['error', 'single'],
 		'semi': ['error', 'never'],
 	},
+
 }
