@@ -1,4 +1,5 @@
 /* eslint-env browser */
+import 'normalize.css'
 import './index.css'
 
 import React from 'react'

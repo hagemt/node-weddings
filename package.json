@@ -1,6 +1,6 @@
 {
   "name": "weddings",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "author": "Tor E Hagemann <tor.hagemann@gmail.com>",
   "description": "React projects for the wedding(s)",
   "homepage": "http://hagemt.github.io/node-weddings",
@@ -13,12 +13,12 @@
     "test": "src/tests"
   },
   "dependencies": {
+    "normalize.css": "7.0.0",
     "react": "15.5.4",
     "react-addons-css-transition-group": "15.5.2",
     "react-dom": "15.5.4"
   },
   "devDependencies": {
-    "enzyme": "2.8.2",
     "eslint": "3.19.0",
     "eslint-plugin-import": "2.3.0",
     "eslint-plugin-react": "7.0.1",

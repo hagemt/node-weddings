@@ -23,8 +23,10 @@ module.exports = {
 	],
 
 	rules: {
+		'capitalized-comments': ['off'],
 		'comma-dangle': ['error', 'always-multiline'],
 		'indent': ['error', 'tab'],
+		'line-comment-position': ['off'],
 		'linebreak-style': ['error', 'unix'],
 		'max-len': ['error', { code: 128, tabWidth: 2 }],
 		'newline-after-var': ['off'],
