@@ -1,6 +1,9 @@
 body {
 	align-items: center;
+	/*
 	background-color: #c60c30;
+	*/
+	background-color: rgba(149, 12, 48, 1.0);
 	color: black;
 	display: flex;
 	font-family: Homemade Apple;
@@ -53,4 +56,13 @@ img {
 	margin-top: 0;
 	padding: 1rem;
 	padding-top: 0;
+}
+
+.example-appear {
+	opacity: 0.01;
+}
+
+.example-appear.example-appear-active {
+	opacity: 1;
+	transition: opacity .5s ease-in;
 }
