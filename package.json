@@ -1,6 +1,6 @@
 {
   "name": "weddings",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "author": "Tor E Hagemann <tor.hagemann@gmail.com>",
   "description": "React projects for the wedding(s)",
   "homepage": "http://hagemt.github.io/node-weddings",
@@ -13,9 +13,11 @@
     "test": "src/tests"
   },
   "dependencies": {
+    "bootstrap": "3.3.7",
     "normalize.css": "7.0.0",
     "react": "15.5.4",
     "react-addons-css-transition-group": "15.5.2",
+    "react-bootstrap": "0.31.0",
     "react-dom": "15.5.4"
   },
   "devDependencies": {
@@ -31,6 +33,7 @@
     "url": "git+https://github.com/hagemt/node-weddings.git"
   },
   "scripts": {
+    "prebuild": "npm run report",
     "build": "react-scripts build",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
