@@ -34,6 +34,7 @@ module.exports = {
 		'no-extra-parens': ['error', 'all', { ignoreJSX: 'multi-line' }],
 		'no-inline-comments': ['off'],
 		'no-tabs': ['off'],
+		'object-curly-newline': ['off'],
 		'object-curly-spacing': ['error', 'always'],
 		'object-property-newline': ['error', { allowMultiplePropertiesPerLine: true }],
 		'one-var': ['off'],
