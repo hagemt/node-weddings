@@ -47,6 +47,28 @@ const UI = () => (
 				<p>
 					<span className="invitation-footer">&#x1f1e9;&#x1f1f0; + &#x1f1ee;&#x1f1f9; + &#x1f1fa;&#x1f1f8;</span>
 				</p>
+				<p>
+					<span>P.S. For early arrivals, some nearby attractions:</span>
+					<ul>
+						<li><a href="https://parks.ny.gov/parks/128/">John Boyd Thacher State Park</a> open all year</li>
+						<li><a href="http://www.altamontfair.com/">The Altamont Fair</a> from 15th&mdash;20th August, 2017</li>
+						<li><a href="http://www.spac.org">Performing Arts Center</a> in <a href="http://www.saratoga.com/">Saratoga</a></li>
+						<li><a href="http://www.proctors.org/">Proctors Theatre</a> in Downtown Schenectady</li>
+						<li>
+							<a href="http://www.rpi.edu/">Rensselaer Polytechnic Institute</a>
+							<br />
+							<span>(university campus where Leah and Tor met)</span>
+						</li>
+					</ul>
+				</p>
+				<p>
+					<span>For those less familiar with the area, accommodations and shopping:</span>
+					<ul>
+						<li><a href="https://www.yelp.com/biz/hotel-indigo-albany-latham-latham">Hotel Indigo (near airport)</a></li>
+						<li><a href="https://www.yelp.com/biz/colonie-center-albany">Colonie Center Mall</a></li>
+						<li><a href="https://www.yelp.com/biz/crossgates-mall-albany">Crossgates Mall</a></li>
+					</ul>
+				</p>
 			</div>
 		</div>
 	</CSSTransitionGroup>
