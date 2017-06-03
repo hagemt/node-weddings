@@ -1,3 +1,4 @@
+// @flow
 /* eslint-env browser, mocha */
 import React from 'react'
 import ReactDOM from 'react-dom'

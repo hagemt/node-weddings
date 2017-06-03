@@ -14,11 +14,11 @@ a:visited,
 a:hover,
 a {
 	color: black;
-	font-size: 1.5rem;
-	padding: 1rem;
 }
 
 a:link {
+	font-size: 2.4rem;
+	padding: 1rem;
 	text-decoration: none;
 }
 
@@ -27,22 +27,29 @@ a:hover {
 }
 
 .flex-center {
-	/*
 	align-items: center;
-	*/
 	display: flex;
 	justify-content: center;
 }
 
+.flex-leftish {
+	align-self: flex-start;
+}
+
 .invitation {
-	background-image: url('./parchment.jpg');
+	background-image: url('./images/parchment.jpg');
 	background-position: right;
-	background-size: cover;
 	background-repeat: no-repeat;
+	background-size: cover;
 	border-radius: 1rem;
 	box-shadow: 1rem 1rem 1rem black;
 	margin: 2rem;
 	width: 960px;
+}
+
+.invitation > img {
+	border-top-left-radius: 1rem;
+	border-top-right-radius: 1rem;
 }
 
 .invitation-appear {
@@ -51,25 +58,27 @@ a:hover {
 
 .invitation-appear.invitation-appear-active {
 	opacity: 1;
-	transition: opacity .5s ease-in;
+	transition: opacity 1s ease-in;
 }
 
-.invitation > h1 {
+.invitation-text {
+	width: 720px;
+}
+
+.invitation-text > h1 {
+	font-size: 3.2rem;
 	font-weight: normal;
+	padding: 1rem;
 	text-align: center;
 }
 
-.invitation > img {
-	border-top-left-radius: 1rem;
-	border-top-right-radius: 1rem;
-}
-
-.invitation > p {
-	padding: 0rem 1rem 1rem;
+.invitation-text > p {
+	font-size: 1.6rem;
+	padding: 1rem;
 	text-align: center;
 }
 
-.invitation > p > span {
+.invitation-text > p > span {
 	display: block;
 	margin: 1rem;
 }

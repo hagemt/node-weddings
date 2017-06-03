@@ -1,8 +1,9 @@
+// @flow
 /* eslint-env browser */
+import { CSSTransitionGroup } from 'react-transition-group'
 import React from 'react'
-import ReactCSSTransitionGroup from 'react-addons-css-transition-group'
 
-import imageLink from './sunset.jpg'
+import imageLink from './images/sunset.jpg'
 const imageText = 'Indian Ladder Farms'
 
 const emailSubject = 'Family Wedding in NY'
@@ -20,30 +21,35 @@ const weatherLink = 'https://www.google.com/search?q=weather+12009'
 //const weatherLink = 'http://www.accuweather.com/en/us/altamont-ny/12009/daily-weather-forecast/2083603?day=80'
 
 const UI = () => (
-	<ReactCSSTransitionGroup
+	<CSSTransitionGroup
 		transitionName="invitation"
 		transitionAppear={true}
-		transitionAppearTimeout={5000}
+		transitionAppearTimeout={1000}
 		transitionEnter={false}
 		transitionLeave={false}>
 		<div className="flex-centered invitation">
 			<img alt={imageText} src={imageLink} />
-			<h1>Please Join Us,</h1>
-			<p>
-				<span>the families of <a href={mailtoTor}>Tor Eivind Hagemann</a></span>
-				<span>and <a href={mailtoLeah}>Leah Julianne Simpson,</a> together</span>
-				<span>at <a href={weatherLink}>4pm on Sunday, August 20th, 2017</a></span>
-			</p>
-			<p>
-				<span>at <a href={venueLink}>Indian Ladder Farms</a> in Altamont, New York</span>
-				<span>to share in the first of many celebrations of their marriage.</span>
-			</p>
-			<p>
-				<span>Intimate ceremony will be held outside, in the shade,</span>
-				<span>followed by reception and refreshments, into sunset.</span>
-			</p>
+			<div className="flex-leftish invitation-text">
+				<h1>Please Join Us,</h1>
+				<p>
+					<span>the families of <a href={mailtoTor}>Tor Eivind Hagemann</a></span>
+					<span>and <a href={mailtoLeah}>Leah Julianne Simpson,</a> together</span>
+					<span>at <a href={weatherLink}>4pm on Sunday, August 20th, 2017</a></span>
+				</p>
+				<p>
+					<span>at <a href={venueLink}>Indian Ladder Farms</a> in Altamont, New York</span>
+					<span>to share in the first of many celebrations of their marriage.</span>
+				</p>
+				<p>
+					<span>Intimate ceremony will be held outside, in the shade,</span>
+					<span>followed by reception and refreshments, into sunset.</span>
+				</p>
+				<p>
+					<span>&#x1f1e9;&#x1f1f0; + &#x1f1ee;&#x1f1f9; + &#x1f1fa;&#x1f1f8;</span>
+				</p>
+			</div>
 		</div>
-	</ReactCSSTransitionGroup>
+	</CSSTransitionGroup>
 )
 
 export default UI

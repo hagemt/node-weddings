@@ -1,4 +1,9 @@
+// @flow
 /* eslint-env browser */
+
+import 'bootstrap/dist/css/bootstrap.css'
+import 'bootstrap/dist/css/bootstrap-theme.css'
+
 import 'normalize.css'
 import './index.css'
 
