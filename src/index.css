@@ -78,11 +78,17 @@ a:link {
 	text-align: center;
 }
 
-.invitation-text > p > ul > li {
-	margin: 1rem 0;
-}
-
 .invitation-text > p > span {
 	display: block;
 	margin: 1rem;
+}
+
+.invitation-text > ul {
+	margin-left: 2rem;
+	padding: 1rem;
+	text-align: left;
+}
+
+.invitation-text > ul > li {
+	font-size: 1.6rem;
 }
