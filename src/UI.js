@@ -30,14 +30,14 @@ const UI = () => (
 		<div className="flex-centered invitation">
 			<img alt={imageText} src={imageLink} />
 			<div className="flex-leftish invitation-text">
-				<h1>Please Join Us,</h1>
+				<h1 className="invitation-header">&#x1f491;&nbsp;Please Join Us,</h1>
 				<p>
-					<span>the families of <a href={mailtoTor}>Tor Eivind Hagemann</a></span>
-					<span>and <a href={mailtoLeah}>Leah Julianne Simpson,</a> together</span>
-					<span>at <a href={weatherLink}>4pm on Sunday, August 20th, 2017</a></span>
+					<span>the families of <a href={mailtoTor}>&#x1f3A9;&nbsp;Tor Eivind Hagemann</a></span>
+					<span>and <a href={mailtoLeah}>&#x1f470;&nbsp;Leah Julianne Simpson,</a> together</span>
+					<span>at <a href={weatherLink}>&#x1f553;&nbsp;4pm on Sunday, August 20th, 2017</a></span>
 				</p>
 				<p>
-					<span>at <a href={venueLink}>Indian Ladder Farms</a> in Altamont, New York</span>
+					<span>at <a href={venueLink}>&#x1f492;&nbsp;Indian Ladder Farms</a> in Altamont, New York</span>
 					<span>to share in the first of many celebrations of their marriage.</span>
 				</p>
 				<p>
@@ -45,7 +45,7 @@ const UI = () => (
 					<span>followed by reception and refreshments, into sunset.</span>
 				</p>
 				<p>
-					<span>&#x1f1e9;&#x1f1f0; + &#x1f1ee;&#x1f1f9; + &#x1f1fa;&#x1f1f8;</span>
+					<span className="invitation-footer">&#x1f1e9;&#x1f1f0; + &#x1f1ee;&#x1f1f9; + &#x1f1fa;&#x1f1f8;</span>
 				</p>
 			</div>
 		</div>

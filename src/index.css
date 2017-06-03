@@ -6,6 +6,7 @@ body {
 	color: black;
 	font-family: Homemade Apple;
 	font-size: 1rem;
+	height: 100vh;
 }
 
 a:active,
@@ -20,10 +21,6 @@ a:link {
 	font-size: 2.4rem;
 	padding: 1rem;
 	text-decoration: none;
-}
-
-a:hover {
-	text-decoration: underline;
 }
 
 .flex-center {
@@ -61,15 +58,19 @@ a:hover {
 	transition: opacity 1s ease-in;
 }
 
-.invitation-text {
-	width: 720px;
+.invitation-footer {
+	font-size: 3.2rem;
 }
 
-.invitation-text > h1 {
+.invitation-header {
 	font-size: 3.2rem;
 	font-weight: normal;
 	padding: 1rem;
 	text-align: center;
+}
+
+.invitation-text {
+	width: 720px;
 }
 
 .invitation-text > p {
