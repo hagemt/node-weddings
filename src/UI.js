@@ -15,6 +15,7 @@ const emailTor = 'tor.hagemann@gmail.com'
 const mailtoLeah = `mailto:${emailLeah}?cc=${emailTor}&subject=${emailSubject}&body=${emailBody}`
 const mailtoTor = `mailto:${emailTor}?cc=${emailLeah}&subject=${emailSubject}&body=${emailBody}`
 
+const groupLink = 'https://www.facebook.com/groups/1333575670020629/'
 const venueLink = 'http://www.indianladderfarms.com/'
 const weatherLink = 'https://www.google.com/search?q=weather+12009'
 //const weatherLink = 'https://www.google.com/search?q=weather+12009+august+20th+2017'
@@ -71,7 +72,7 @@ const UI = () => (
 				</ul>
 				<p>
 					<span>Want to participate in Wedding Planning and Ideas?</span>
-					<span>Ask to join our <a href="https://facebook.com">Facebook</a> group.</span>
+					<span>Ask to join our <a href={groupLink}>Facebook</a> group.</span>
 				</p>
 				<p>
 					<span className="invitation-footer">&#x1f389;&nbsp;Love, Leah and Tor</span>
