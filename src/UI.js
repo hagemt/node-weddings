@@ -3,6 +3,10 @@
 import { CSSTransitionGroup } from 'react-transition-group'
 import React from 'react'
 
+import flagDK from './images/dk.png'
+import flagIT from './images/it.png'
+import flagUS from './images/us.png'
+
 import imageLink from './images/sunset.jpg'
 const imageText = 'Indian Ladder Farms'
 
@@ -47,7 +51,13 @@ const UI = () => (
 					<span>followed by reception and refreshments, into sunset.</span>
 				</p>
 				<p>
-					<span className="invitation-footer">&#x1f1e9;&#x1f1f0; + &#x1f1ee;&#x1f1f9; + &#x1f1fa;&#x1f1f8;</span>
+					<span className="invitation-footer">
+						<img alt="DK" className="flag" src={flagDK} />
+						<span>+</span>
+						<img alt="IT" className="flag" src={flagIT} />
+						<span>+</span>
+						<img alt="US" className="flag" src={flagUS} />
+					</span>
 				</p>
 				<p>
 					<span>P.S. For early arrivals, some nearby attractions:</span>
