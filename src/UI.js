@@ -92,7 +92,7 @@ const UI = () => (
 					<span>Our home is already so full of love, so please do not consider material gifts.</span>
 				</p>
 				<p>
-					<span className="invitation-footer">&#x1f389;&nbsp;Love, Leah and Tor</span>
+					<span className="invitation-footer">&#x1f389;&nbsp;With love, from Leah and Tor.</span>
 				</p>
 			</div>
 		</div>
