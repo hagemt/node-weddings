@@ -40,7 +40,7 @@ const UI = () => (
 				<p>
 					<span>the families of <a href={mailtoTor}>&#x1f3A9;&nbsp;Tor Eivind Hagemann</a></span>
 					<span>and <a href={mailtoLeah}>&#x1f470;&nbsp;Leah Julianne Simpson,</a> together</span>
-					<span>at <a href={weatherLink}>&#x1f553;&nbsp;4pm on Sunday, August 20th, 2017</a></span>
+					<span><a href={weatherLink}>&#x1f553;&nbsp;4pm on Sunday, August 20th, 2017</a></span>
 				</p>
 				<p>
 					<span>at <a href={venueLink}>&#x1f492;&nbsp;Indian Ladder Farms</a> in Altamont, New York</span>
@@ -89,7 +89,7 @@ const UI = () => (
 					<span>We consider your presence at this special event to be the greatest gift.</span>
 					<span>In lieu of gifts, please consider a donation to <a href={charityLink}>charities</a> of impact.</span>
 					<span>Alternatively, we will accept small contributions to fund our honeymoon.</span>
-					<span>Our home is already so full of love, so please do not consider material gifts.</span>
+					<span>Our home is already full of love, so please do not consider material gifts.</span>
 				</p>
 				<p>
 					<span className="invitation-footer">&#x1f389;&nbsp;With love, from Leah and Tor.</span>
